@@ -2,8 +2,13 @@
     margin: 20px 0;
 }
 
-
-td,th {
+td, th {
     vertical-align: middle !important;
     text-align: center;
+}
+
+td:first-of-type {
+
+    height: 200px;
+    width: 250px;
 }
